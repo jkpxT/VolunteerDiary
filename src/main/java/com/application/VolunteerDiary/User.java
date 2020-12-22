@@ -20,10 +20,10 @@ public class User {
     @Column(unique = true, columnDefinition = "varchar(50)", nullable = false)
     private String email;
 
-    @Column(unique = true, columnDefinition = "varchar(20)", nullable = false)
+    @Column(columnDefinition = "varchar(20)", nullable = false)
     private String name;
 
-    @Column(unique = true, columnDefinition = "varchar(255)", nullable = false)
+    @Column(columnDefinition = "varchar(255)", nullable = false)
     private String password;
 
     @Builder
