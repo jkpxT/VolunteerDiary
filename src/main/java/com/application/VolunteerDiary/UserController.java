@@ -32,10 +32,4 @@ public class UserController {
         return responseEntity;
     }
 
-    @GetMapping
-    public String test() {
-        LoggerFactory.getLogger(getClass()).info("kyl9805");
-        return "{}";
-    }
-
 }
